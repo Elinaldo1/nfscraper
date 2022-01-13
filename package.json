@@ -1,0 +1,28 @@
+{
+  "name": "nfscraper",
+  "version": "1.0.0",
+  "description": "Scraping de dados DANFE NFC-e e NFe",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Elinaldo1/nfscraper.git"
+  },
+  "author": "Elinaldo Sá",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Elinaldo1/nfscraper/issues"
+  },
+  "homepage": "https://github.com/Elinaldo1/nfscraper#readme",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "cheerio": "^1.0.0-rc.10",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "puppeteer": "^13.0.1"
+  }
+}
