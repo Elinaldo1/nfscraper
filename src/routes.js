@@ -1,9 +1,9 @@
-const {Router} = require('express');
-const DanfeController = require('./controller/DanfeController');
+import { Router } from 'express';
+import NfController from '../src/controllers/NfController';
 
 const routes = new Router();
 
 
-routes.get('/nf', DanfeController.show)
+routes.get('/nf/:chave', NfController.show)
 
-module.exports = routes;
+export default routes;

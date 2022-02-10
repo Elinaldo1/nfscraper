@@ -1,6 +1,6 @@
-const express = require('express');
-const cors = require('cors');
-const routes =require('./routes');
+import cors from 'cors';
+import express from 'express';
+import routes from './routes';
 
 class App{
     constructor(){
