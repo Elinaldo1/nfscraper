@@ -8,7 +8,7 @@ class NfController{
         const { chave } = req.params;
 
 
-        if(chave.length < 44){
+        if(chave.length < 44 || chave.length > 44){
             return res.status(404).json({"error":"chave inválida"})
         }
    
@@ -18,7 +18,6 @@ class NfController{
             const browserInstance = StartBrowser();
             
             // Passe a instância do navegador para o controlador scraper
-            // Pass the browser instance to the scraper controller
             const data = await newPage(browserInstance, scraperObject, chave);
 
             console.log(data);
@@ -27,10 +26,6 @@ class NfController{
             }else{
                 return res.json(data);
             }
-
-        // }catch(error){
-        //     return res.status(500).json(error)
-        // }
 
     }
 }
