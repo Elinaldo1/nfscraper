@@ -10,7 +10,7 @@ class App{
         this.routes();
     }
 
-
+    // Config Cross Origin e ParseJson
     middlewares(){
         this.server.use(cors());
         this.server.use(express.json());
