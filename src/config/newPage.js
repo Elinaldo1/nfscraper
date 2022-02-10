@@ -1,11 +1,9 @@
-// const pageScraper = require('./pageScraper');
-// const danfeScrapper = require('./danfeScrapper');
-
-async function scrapeAll(browserInstance, pageScraper, url){
+// Abre uma nova guia e carrega a página de extração
+async function scrapeAll(browserInstance, pageScraper, chaveAcesso){
     let browser;
     try{
         browser = await browserInstance;
-        const resultScrapper = await pageScraper.scraper(browser, url);
+        const resultScrapper = await pageScraper.scraper(browser, chaveAcesso);
         return resultScrapper;
     }
     catch(err){
@@ -14,4 +12,4 @@ async function scrapeAll(browserInstance, pageScraper, url){
     }
 }
 
-module.exports = (browserInstance, pageScraper, url) => scrapeAll(browserInstance, pageScraper, url);
+export default (browserInstance, pageScraper, chaveAcesso) => scrapeAll(browserInstance, pageScraper, chaveAcesso);
