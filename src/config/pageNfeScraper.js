@@ -211,7 +211,7 @@ const scraperObject = {
             return {error}
 
         }finally{
-
+            // Feche o browser
             await browser.close();
 
         }

@@ -1,3 +1,97 @@
 {
-  "error": "Chave informada não é NFe"
+  "dadosGerais": {
+    "chaveAcesso": "35191033736889000129550010000063321927620473",
+    "numero": "6332",
+    "vsXml": "4.00"
+  },
+  "nfe": {
+    "modelo": "55",
+    "serie": "1",
+    "numero": "6332",
+    "dataEmissao": "21/10/2019 10:00:45-03:00",
+    "ValorTotalNF": "1.179,90"
+  },
+  "emitente": {
+    "nomeRazaoSocial": "RSD WEB COMERCIO",
+    "nomeFantasia": "RSD WEB COMERCIO",
+    "cnpj": "33.736.889/0001-29",
+    "endereco": "AV BRIGADEIRO FARIA LIMA, 1461",
+    "bairroDistrito": "JARDIM PAULISTANO",
+    "cep": "01452-002",
+    "municipio": "3550308 - SAO PAULO",
+    "telefone": "",
+    "uf": "SP",
+    "pais": "1058 - BRASIL",
+    "inscricaoEstadual": "126146918114",
+    "iesTributario": "",
+    "inscricaoMunicipal": "",
+    "mofgIcms": "3550308",
+    "cnaeFiscal": "",
+    "codRegimeTribut": "1 - Simples Nacional"
+  },
+  "destinatario": {
+    "nomeRazaoSocia": "Joseane Sa Correia",
+    "cpf": "605.827.443-50",
+    "endereco": "Coronel Americo, 875",
+    "bairroDistrito": "Barreiros",
+    "cep": "88117-310",
+    "municipio": "4216602 - SAO JOSE",
+    "telefone": "(98)98850-8137",
+    "uf": "SC",
+    "pais": "1058 - BRASIL",
+    "indicadorIe": "09 - Não Contribuinte, que pode ou não possuir Inscrição Estadual no Cadastro de Contribuintes do ICMS",
+    "inscricaoEstadual": "",
+    "insricaoSuframa": "",
+    "im": "",
+    "email": "jsacorr.5n9p0h+2-ogiytqmzuhe3tonbv@mail.mercadolivre.com"
+  },
+  "produtos": [
+    {
+      "descricao": "XIAOMI MI A3 128GB, 4G, ANDROID 9, PROCESSADOR OCTA CORE, CAMERA 48MP 8MP 2MP / 32MP, 4GB RAM, TELA 6 AZUL",
+      "codigoProduto": "MI-A3-128GB-BLUE",
+      "codigoNCM": "85171231",
+      "CFOP": "6108",
+      "vlUnit": "1.179,9000000000",
+      "vlTotal": "1.179,90",
+      "unidadeComercial": "UN",
+      "qtd": "1,0000",
+      "codigoEANcomercial": "9900000018078"
+    }
+  ],
+  "totais": {
+    "baseCalcIcms": "0,00",
+    "vlIcms": "0,00",
+    "vlTotalProdutos": "1.179,90",
+    "vlFrete": "0,00",
+    "vlSeguro": "0,00",
+    "vlDescontos": "0,00",
+    "vlTotalNfe": "1.179,90",
+    "vlAprxTributos": "0,00"
+  },
+  "transporte": {
+    "modalidadeFrete": "0 - Contratação do Frete por Conta do Remetente",
+    "transportador": {
+      "cnpj": "03.499.243/0001-04",
+      "nomeRazaoSocia": "MERCADO ENVIOS OFF",
+      "inscricaoEstadual": "",
+      "enderecoCompleto": "AV DAS NACOES UNIDAS, 3003",
+      "municipio": "OSASCO",
+      "uf": "SP"
+    },
+    "volumes": {
+      "qtd": "1",
+      "especie": "Caixa",
+      "marcaVolumes": "",
+      "numeracao": "",
+      "pesoLiq": "1.000",
+      "pesoBruto": "1.000"
+    }
+  },
+  "cobranca": {
+    "formaPgto": "99 - Outros",
+    "vlPgto": "1.179,90",
+    "integracaoPgto": "",
+    "troco": ""
+  },
+  "infosAdicionais": "1 - DANFE normal, retrato"
 }
