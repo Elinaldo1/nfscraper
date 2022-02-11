@@ -1,4 +1,3 @@
 node_modules
 .env
 src/config/pageDanfeScraper.js
-nf.json
