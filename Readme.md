@@ -1,4 +1,4 @@
-Api desenvolvida para por em prática conhecimentos de web scraping com Node.JS, Puppeteer e Express.
+Busca de dados de DANFE NFC-e E NFe com Node.js, Puppeteer e express.
 
 Essa pode ser uma ótima idéia a ser implantada por exemplo em pequenos sistemas de orçamento doméstico onde precisa cadastrar muitos produtos, preços, locais de compra, ou lançar despesas detalhadas, no geral manualmente, imagina lançar um cupom fiscal com 200 ou mais produtos? pode levar até horas. Vc pode ter isso de forma automática em segundos.
 
