@@ -7,7 +7,8 @@ O objetivo é retornar todos os dados da DANFE NFC-e, possibilitando comparativo
 Testado com Danfe NFC-e do estado de Goiás. Verifique possibilidade de uso no seu estado.
 Para visualizar a ação no navegador, faça "headless:false" em src/config/browser.js.
 
-A seguir temos a estrutura de dados retornados, mas podemos adicionar muito mais, analise a pagina de dados.
+A seguir temos a estrutura de dados retornados, mas podemos adicionar muito mais, analise a pagina de dado:.
+
 {
     dadosGerais:{
         chaveAcesso:'',
