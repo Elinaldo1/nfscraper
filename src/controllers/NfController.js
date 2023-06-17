@@ -7,6 +7,9 @@ class NfController{
     async show(req, res){
         const { chave } = req.params;
 
+        console.log(chave);
+        console.log(chave.length);
+        console.log('chave.length');
 
         if(chave.length < 44 || chave.length > 44){
             return res.status(404).json({"error":"chave inválida"})
