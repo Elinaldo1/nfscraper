@@ -212,6 +212,7 @@ const scraperObject = {
 
         }finally{
             // Feche o browser
+            console.log('fechar o browser')
             await browser.close();
 
         }
